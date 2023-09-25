@@ -5,7 +5,5 @@ function showSalary(users, age) {
     return array;
   }, []);
 
-  if (strArray.length > 1) return strArray.join('\n');
-
-  return strArray.join('');
+  return strArray.join('\n');
 }
